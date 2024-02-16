@@ -7,6 +7,7 @@ Cloud Build has been chosen by default to allow you to quickly get started witho
 
 ## Overview
 
+![image](https://github.com/mallikraj-ah/gcp-terraform-foundation/assets/107896233/3a24f299-7361-4c8f-bcc4-9d56a510c086)
 This repo contains several distinct Terraform projects, each within their own directory that must be applied separately, but in sequence.
 Each of these Terraform projects are to be layered on top of each other, and run in the following order.
 
@@ -53,6 +54,9 @@ example-organization/
 When this step uses the Cloud Build submodule, it sets up the cicd project (`prj-b-cicd`) with Cloud Build and Cloud Source Repositories for each of the stages below.
 Triggers are configured to run a `terraform plan` for any non-environment branch and `terraform apply` when changes are merged to an environment branch (`development`, `non-production` or `production`).
 Usage instructions are available in the 0-bootstrap [README](./0-bootstrap/README.md).
+
+
+
 
 ### [1. org](./1-org/)
 
