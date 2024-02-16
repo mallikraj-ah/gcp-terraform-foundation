@@ -107,38 +107,11 @@ All groups in the `groups.required_groups` are required.
 
 All groups in the `groups.optional_groups` are optional.
 
-### Optional - Cloud Build access to on-prem
-
-See [onprem](./onprem.md) for instructions on how to configure Cloud Build access to your on-premises environment.
-
 ### Troubleshooting
 
 See [troubleshooting](../docs/TROUBLESHOOTING.md) if you run into issues during this step.
 
-## Deploying with Jenkins
 
-If you are using the `jenkins_bootstrap` sub-module, see [README-Jenkins](./README-Jenkins.md)
-for requirements and instructions on how to run the 0-bootstrap step. Using
-Jenkins requires a few manual steps, including configuring connectivity with
-your current Jenkins manager (controller) environment.
-
-## Deploying with GitHub Actions
-
-If you are deploying using [GitHub Actions](https://docs.github.com/en/actions), see [README-GitHub.md](./README-GitHub.md)
-for requirements and instructions on how to run the 0-bootstrap step.
-Using GitHub Actions requires manual creation of the GitHub repositories used in each stage.
-
-## Deploying with GitLab Pipelines
-
-If you are deploying using [GitLab Pipelines](https://docs.gitlab.com/ee/ci/pipelines/), see [README-GitLab.md](./README-GitLab.md)
-for requirements and instructions on how to run the 0-bootstrap step.
-Using GitLab Pipeline requires manual creation of the GitLab projects (repositories) used in each stage.
-
-## Deploying with Terraform Cloud
-
-If you are deploying using [Terraform Cloud](https://developer.hashicorp.com/terraform/cloud-docs), see [README-Terraform-Cloud.md](./README-Terraform-Cloud.md)
-for requirements and instructions on how to run the 0-bootstrap step.
-Using Terraform Cloud requires manual creation of the GitHub repositories or GitLab projects used in each stage.
 
 ## Deploying with Cloud Build
 
